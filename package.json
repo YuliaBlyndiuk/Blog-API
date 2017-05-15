@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/YuliaBlyndiuk/Blog-API#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "udid": "^0.1.4"
   }
 }
