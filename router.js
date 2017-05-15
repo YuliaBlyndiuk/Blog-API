@@ -6,13 +6,10 @@ const jsonParser = bodyParser.json();
 
 const {BlogPosts} = require('./models');
 
-
-//adding a couple blog posts
 BlogPosts.create("post1", "post1 content", "Yulia");
 BlogPosts.create("post2", "post2 content", "Yulia");
 BlogPosts.create("post3", "post3 content", "Yulia");
 
-//get request
 router.get('/', (req, res) => {
 	res.json(BlogPosts.get());
 })
